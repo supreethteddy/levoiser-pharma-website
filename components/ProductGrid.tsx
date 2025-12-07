@@ -7,7 +7,7 @@ import { Pill, Microscope, Factory, Leaf, Shield, Heart } from 'lucide-react'
 
 const ProductGrid = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, multiple: true })
+  const isInView = useInView(ref, { once: true })
 
   const products = [
     {
