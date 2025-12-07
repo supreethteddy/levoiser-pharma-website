@@ -1,0 +1,74 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <g id="lab-equipment-1">
+      <rect x="100" y="300" width="80" height="200" fill="#e2e8f0" rx="10"/>
+      <rect x="120" y="280" width="40" height="20" fill="#94a3b8"/>
+      <circle cx="140" cy="400" r="15" fill="#0ea5e9" opacity="0.3"/>
+    </g>
+    <g id="lab-equipment-2">
+      <rect x="800" y="200" width="120" height="300" fill="#f1f5f9" rx="15"/>
+      <rect x="820" y="180" width="80" height="20" fill="#64748b"/>
+      <ellipse cx="860" cy="350" rx="25" ry="40" fill="#0ea5e9" opacity="0.2"/>
+    </g>
+    <g id="test-tubes">
+      <rect x="400" y="400" width="8" height="80" fill="#0ea5e9"/>
+      <rect x="420" y="390" width="8" height="90" fill="#0d9488"/>
+      <rect x="440" y="410" width="8" height="70" fill="#1e3a8a"/>
+      <circle cx="404" cy="390" r="4" fill="#0ea5e9" opacity="0.7"/>
+      <circle cx="424" cy="380" r="4" fill="#0d9488" opacity="0.7"/>
+      <circle cx="444" cy="400" r="4" fill="#1e3a8a" opacity="0.7"/>
+    </g>
+    <g id="microscope">
+      <rect x="600" y="500" width="4" height="60" fill="#475569"/>
+      <rect x="580" y="500" width="40" height="4" fill="#475569"/>
+      <circle cx="600" cy="520" r="12" fill="#64748b"/>
+      <rect x="590" y="560" width="20" height="8" fill="#374151"/>
+      <circle cx="600" cy="580" r="8" fill="#1e3a8a" opacity="0.4"/>
+    </g>
+  </defs>
+  
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="labGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Lab Background -->
+  <rect width="1920" height="1080" fill="url(#labGradient)"/>
+  
+  <!-- Laboratory Benches -->
+  <rect x="0" y="700" width="1920" height="380" fill="#64748b" opacity="0.1"/>
+  <rect x="0" y="720" width="1920" height="20" fill="#475569" opacity="0.2"/>
+  
+  <!-- Large Equipment -->
+  <use href="#lab-equipment-1"/>
+  <use href="#lab-equipment-2"/>
+  
+  <!-- Wall-mounted Equipment -->
+  <rect x="300" y="150" width="200" height="150" fill="#f1f5f9" rx="10"/>
+  <rect x="320" y="170" width="160" height="110" fill="#e2e8f0" rx="5"/>
+  <circle cx="600" cy="225" r="30" fill="#0ea5e9" opacity="0.3"/>
+  
+  <!-- Test Tubes Area -->
+  <rect x="380" y="380" width="80" height="120" fill="#ffffff" rx="10" opacity="0.9"/>
+  <use href="#test-tubes"/>
+  
+  <!-- Additional Lab Station -->
+  <rect x="1000" y="300" width="180" height="200" fill="#ffffff" rx="15" opacity="0.95"/>
+  <use href="#microscope" transform="translate(400, 0)"/>
+  
+  <!-- Lab Cabinet -->
+  <rect x="1400" y="200" width="150" height="250" fill="#6488b8" opacity="0.7"/>
+  <rect x="1420" y="220" width="110" height="210" fill="#475569" opacity="0.8"/>
+  
+  <!-- Ventilation -->
+  <rect x="0" y="100" width="1920" height="80" fill="#94a3b8" opacity="0.1"/>
+  <circle cx="200" cy="140" r="40" fill="#64748b" opacity="0.2"/>
+  <circle cx="600" cy="140" r="40" fill="#64748b" opacity="0.2"/>
+  <circle cx="1000" cy="140" r="40" fill="#64748b" opacity="0.2"/>
+  <circle cx="1400" cy="140" r="40" fill="#64748b" opacity="0.2"/>
+  <circle cx="1720" cy="140" r="40" fill="#64748b" opacity="0.2"/>
+</svg>
+
